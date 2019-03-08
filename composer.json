@@ -1,0 +1,28 @@
+{
+  "name": "hosoft/ho",
+  "type": "library",
+  "description": "ho is a php framework depend on PHP7",
+  "keywords": ["framework", "ho"],
+  "homepage": "http://ho.jianmo.top/",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jiang Zhicheng",
+      "email": "igetjzc@outlook.com",
+      "homepage": "https://github.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+    "psr/log": "^1.0"
+  },
+  "autoload": {
+    "files": ["src/functions.php"],
+    "psr-4": {
+      "Ho\\": "src/"
+    }
+  }
+}
